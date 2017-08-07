@@ -16,7 +16,7 @@ Create patches from your commits, and place them in a directory:
 % git format-patch master -o submission_patches
 Create a .zip file with the contents of the patches directory:
 % zip -r submission_patches.zip submission_patches
-Email the .zip file to kiisu@renewfund.com, and put the position you are applying for in the email's subject.
+Email the .zip file to (insert email), and put the position you are applying for in the email's subject.
 Why can't I just fork, and submit a pull request?
 
 Unfortunately, Github no longer allows you to fork a public repo and make it private, so your submission would be visible to the entire world. We'd love to keep this fair and not give the last responders a possible unfair advantage (since they'd be able to see all prior submissions); hence the patch method.
