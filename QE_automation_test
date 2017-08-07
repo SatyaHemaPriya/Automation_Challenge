@@ -24,7 +24,7 @@ Unfortunately, Github no longer allows you to fork a public repo and make it pri
 Project Description
 
 Imagine that we have just acquired a new company, that provides walking directions and we want to compare our walking directions to directions provided by Google. We may at some point want to compare different starting and ending points so we need automation to obtain this data reliably. Your automation script should enter a starting address (400 SW 6th Ave #902, Portland, OR 97204), obtain the walking directions to an ending address and output them into a standard csv file.
-(for more info on google docs api, go here: https://developers.google.com/apis-explorer/#p/drive/v3/)
+
 
 Here are the automation requirements.
 
@@ -37,6 +37,8 @@ If you're feeling inspired, bonus points for:
 allowing for data driven tests pulling addresses from an external file. (csv, or yml)
 obtain a screenshot of the map with the route for a "future requirement".
 using google drive api to upload the document to a sharable google drive. 
+(for more info on google docs api, go here: https://developers.google.com/apis-explorer/#p/drive/v3/)
+
 Evaluation
 
 Reviewers will assess your familiarity with standard libraries, and with object-oriented programming.
